@@ -49,7 +49,6 @@ struct DiceView: View {
         Image("dice\(n)")
             .resizable()
             .aspectRatio(1, contentMode: .fit)
-            .padding()
     }
     
     struct ContentView_Previews: PreviewProvider {
